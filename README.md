@@ -1,5 +1,5 @@
 # UK Financial Services Consumer Complaints Intelligence
-### A Consumer Duty Risk Analysis — FCA Published Data 2022–2024
+### A Consumer Duty Risk Analysis - FCA Published Data 2022–2024
 
 ![Dashboard Overview](assets/dashboard_overview.jpeg)
 
@@ -24,7 +24,7 @@ This project analyses 5 consecutive periods of FCA-published firm-level complain
 | 17 firms in the Danger Quadrant | Both above-average complaint volume AND above-average uphold rate simultaneously |
 | NatWest Group has two subsidiaries in the Danger Quadrant | National Westminster Bank Plc and The Royal Bank of Scotland Plc both flagged |
 | British Gas ranks in the top 3 on the Risk Index | A non-financial firm performing worse than most regulated banks on complaint handling |
-| Industry uphold rate increased slightly post-Duty | Average moved from 51.8% (Pre-Duty) to 53.1% (Post-Duty) — driven by insurance and pensions |
+| Industry uphold rate increased slightly post-Duty | Average moved from 51.8% (Pre-Duty) to 53.1% (Post-Duty) - driven by insurance and pensions |
 
 ---
 
@@ -38,7 +38,7 @@ KPI tiles, complaint volume trend with Consumer Duty marker, top 12 firms by vol
 ![Executive Overview](assets/dashboard_overview.jpeg)
 
 **Page 2 — Firm Intelligence**
-Select any of the 283 firms from a dropdown and all visuals update instantly — complaint trajectory, uphold rate trend, product category breakdown, and period-by-period data table.
+Select any of the 283 firms from a dropdown and all visuals update instantly - complaint trajectory, uphold rate trend, product category breakdown, and period-by-period data table.
 
 ![Firm Intelligence](assets/dashboard_firm_intelligence.jpeg)
 
@@ -111,10 +111,10 @@ The FCA publishes this data every six months. It covers all regulated firms that
 ### SQL Analysis (`02_sql_analysis.py`)
 - Loaded master CSV into SQLite for relational querying
 - 12 queries across 4 modules:
-  - **Module A** — Volume and trend analysis (LAG window functions for period-on-period)
-  - **Module B** — Product category performance pre vs post Consumer Duty
-  - **Module C** — Uphold rate analysis including the Danger Quadrant (NTILE quartile banding)
-  - **Module D** — Resolution speed analysis (% closed within 3 days)
+  - **Module A** - Volume and trend analysis (LAG window functions for period-on-period)
+  - **Module B** - Product category performance pre vs post Consumer Duty
+  - **Module C** - Uphold rate analysis including the Danger Quadrant (NTILE quartile banding)
+  - **Module D** - Resolution speed analysis (% closed within 3 days)
 
 ### Exploratory Data Analysis (`03_eda_notebook.ipynb`)
 - 10 charts covering industry trends, uphold rate distributions, the Danger Quadrant scatter chart, and Consumer Duty before/after comparisons
@@ -168,9 +168,9 @@ pip install pandas numpy matplotlib seaborn openpyxl scikit-learn
 
 ## Limitations
 
-- FCA data only covers firms above the 500-complaint threshold — smaller firms are not included
+- FCA data only covers firms above the 500-complaint threshold - smaller firms are not included
 - Uphold rate is calculated on closed complaints and may not reflect unresolved cases
-- Complaint volumes reflect firm size as well as performance — large banks will always appear in high-volume rankings
+- Complaint volumes reflect firm size as well as performance - large banks will always appear in high-volume rankings
 - Redress amounts are not published at firm level and are not included in this analysis
 
 ---
