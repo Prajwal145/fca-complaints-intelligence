@@ -1,5 +1,5 @@
 # UK Financial Services Consumer Complaints Intelligence
-### A Consumer Duty Risk Analysis - FCA Published Data 2022–2024
+### A Consumer Duty Risk Analysis - FCA Published Data 2022-2024
 
 ![Dashboard Overview](assets/dashboard_overview.jpeg)
 
@@ -32,17 +32,17 @@ This project analyses 5 consecutive periods of FCA-published firm-level complain
 
 The interactive Power BI dashboard has three pages:
 
-**Page 1 — Executive Overview**
+**Page 1 - Executive Overview**
 KPI tiles, complaint volume trend with Consumer Duty marker, top 12 firms by volume, sector donut chart, and uphold rate by product category.
 
 ![Executive Overview](assets/dashboard_overview.jpeg)
 
-**Page 2 — Firm Intelligence**
+**Page 2 - Firm Intelligence**
 Select any of the 283 firms from a dropdown and all visuals update instantly - complaint trajectory, uphold rate trend, product category breakdown, and period-by-period data table.
 
 ![Firm Intelligence](assets/dashboard_firm_intelligence.jpeg)
 
-**Page 3 — Consumer Duty Analysis**
+**Page 3 - Consumer Duty Analysis**
 The centrepiece scatter chart plots every firm's pre-Duty vs post-Duty uphold rate. Firms above the diagonal line got worse. Firms below it improved. Sector comparison bars and a worsened firms table complete the page.
 
 ![Consumer Duty Analysis](assets/dashboard_consumer_duty.jpeg)
@@ -124,7 +124,7 @@ The FCA publishes this data every six months. It covers all regulated firms that
 A composite score per firm weighted across four dimensions:
 - Complaint volume (30%)
 - Average uphold rate (35%)
-- Uphold rate trend — improving or worsening (20%)
+- Uphold rate trend - improving or worsening (20%)
 - Volume growth rate (15%)
 
 Scores normalised to 0–100 using min-max scaling. Firms with fewer than 1,000 total complaints excluded.
