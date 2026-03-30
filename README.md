@@ -73,10 +73,10 @@ fca-complaints-intelligence/
 │   └── FCA_Consumer_Duty_Briefing_Note.docx  ← 1-page executive briefing
 │
 └── assets/
-    ├── dashboard_overview.png
-    ├── dashboard_firm_intelligence.png
-    ├── dashboard_consumer_duty.png
-    └── dashboard_scatter_hero.png
+    ├── dashboard_overview.jpeg
+    ├── dashboard_firm_intelligence.jpeg
+    ├── dashboard_consumer_duty.jpeg
+    └── dashboard_scatter.jpeg
 ```
 
 ---
@@ -137,21 +137,6 @@ Scores normalised to 0–100 using min-max scaling. Firms with fewer than 1,000 
 
 ---
 
-## How to Run the Code
-
-**Requirements:**
-```
-pip install pandas numpy matplotlib seaborn openpyxl scikit-learn
-```
-
-**Steps:**
-1. Download the 5 FCA Excel files from the link above into the project folder
-2. Run the cleaning script: `python scripts/01_data_cleaning.py`
-3. Run the SQL analysis: `python scripts/02_sql_analysis.py`
-4. Open the EDA notebook: `notebooks/03_eda_notebook.ipynb`
-5. Load `data/processed/fca_complaints_master.xlsx` into Power BI Desktop
-
----
 
 ## Skills Demonstrated
 
