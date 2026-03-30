@@ -11,7 +11,7 @@ The FCA's Consumer Duty regulation came into force on **31 July 2023**, requirin
 
 **Did Consumer Duty work? And which firms should regulators look at first?**
 
-This project analyses 5 consecutive periods of FCA-published firm-level complaints data to answer that question — across **283 regulated firms**, **6.99 million complaints**, and **5 product categories**.
+This project analyses 5 consecutive periods of FCA-published firm-level complaints data to answer that question - across **283 regulated firms**, **6.99 million complaints**, and **5 product categories**.
 
 ---
 
