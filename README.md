@@ -35,17 +35,17 @@ The interactive Power BI dashboard has three pages:
 **Page 1 — Executive Overview**
 KPI tiles, complaint volume trend with Consumer Duty marker, top 12 firms by volume, sector donut chart, and uphold rate by product category.
 
-![Executive Overview](assets/dashboard_overview.png)
+![Executive Overview](assets/dashboard_overview.jpeg)
 
 **Page 2 — Firm Intelligence**
 Select any of the 283 firms from a dropdown and all visuals update instantly — complaint trajectory, uphold rate trend, product category breakdown, and period-by-period data table.
 
-![Firm Intelligence](assets/dashboard_firm_intelligence.png)
+![Firm Intelligence](assets/dashboard_firm_intelligence.jpeg)
 
 **Page 3 — Consumer Duty Analysis**
 The centrepiece scatter chart plots every firm's pre-Duty vs post-Duty uphold rate. Firms above the diagonal line got worse. Firms below it improved. Sector comparison bars and a worsened firms table complete the page.
 
-![Consumer Duty Analysis](assets/dashboard_consumer_duty.png)
+![Consumer Duty Analysis](assets/dashboard_consumer_duty.jpeg)
 
 ---
 
