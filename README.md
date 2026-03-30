@@ -1,7 +1,7 @@
 # UK Financial Services Consumer Complaints Intelligence
 ### A Consumer Duty Risk Analysis — FCA Published Data 2022–2024
 
-![Dashboard Overview](assets/dashboard_overview.png)
+![Dashboard Overview](assets/dashboard_overview.jpeg)
 
 ---
 
